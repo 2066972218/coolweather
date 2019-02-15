@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value = "cool_weather"/>    //指定数据库名
+
+    <version value = "1"/>     //数据库版本号
+
+    <!--将三个实体类添加到映射列表中-->
+    <list>
+        <mapping class = "com.example.coolweather.db.Province"/>
+        <mapping class = "com.example.coolweather.db.City"/>
+        <mapping class = "com.example.coolweather.db.County"/>
+
+    </list>
+
+</litepal>
