@@ -3,7 +3,7 @@
 
     <dbname value = "cool_weather"/>    //指定数据库名
 
-    <version value = "1"/>     //数据库版本号
+    <version value = "2"/>     //数据库版本号
 
     <!--将三个实体类添加到映射列表中-->
     <list>
