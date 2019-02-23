@@ -19,13 +19,13 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     //用于对数据库进行操作
     implementation 'org.litepal.android:core:1.4.1'
     //用于进行网络请求
-    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.1'
     //用于JSON解析
     implementation 'com.google.code.gson:gson:2.8.2'
     //用于加载和展示图片
